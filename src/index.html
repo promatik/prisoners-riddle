@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Prisoners Riddle</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+</head>
+
+<body>
+  <div class="container col-6 offset-md-3 mt-5">
+    <h1>Prisoners Riddle</h1>
+    <hr />
+    <div class="row">
+      <div class="col-8">
+        <div class="form-group">
+          <label>Number of prisioners</label>
+          <input type="number" name="prisioners" class="form-control" value="100" />
+        </div>
+        <div class="form-group">
+          <label>Method</label>
+          <select class="form-control">
+            <option value="loop">Follow the loop of numbers</option>
+            <option value="random">Select randomly</option>
+          </select>
+        </div>
+        <hr />
+        <div class="form-group">
+          <label>Number of simulations</label>
+          <input type="number" name="simulations" class="form-control" value="100000" />
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+      <div class="col-4">
+        <div>
+          <label class="text-uppercase font-weight-bold">Results</label>
+          <div class="results">
+            <span class="success">0</span> / <span class="samples">0</span>
+            <br />
+            <span class="percent">0</span>%
+            <hr />
+            <span class="performance">0</span>s
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+
+</html>

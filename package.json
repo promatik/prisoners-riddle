@@ -1,0 +1,30 @@
+{
+  "name": "prisoners-riddle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "parcel src/index.html --out-dir docs --open",
+    "console": "node src/console.js",
+    "build": "rm -rf docs/* && parcel build src/index.html --out-dir docs --public-url ./"
+  },
+  "dependencies": {
+    "bootstrap": "4.6.1",
+    "cantil": "1.1.2",
+    "cryptr": "^6.0.3",
+    "eslint": "^8.20.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "parcel-bundler": "^1.6.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.10",
+    "sass": "^1.54.3"
+  },
+  "resolutions": {
+    "@babel/preset-env": "7.13.8"
+  },
+  "keywords": [
+    "javascript",
+    "starter"
+  ]
+}
